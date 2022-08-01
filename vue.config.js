@@ -5,7 +5,18 @@ module.exports = defineConfig({
     devServer: {
       open: true,
       port: 3000,
-      host: 'localhost'
+      host: 'localhost',
+      // 代理配置
+      proxy: {
+        '/ips': {
+          target: 'http://www-wms-java.itheima.net', // 我们要代理的地址
+          changeOrigin: true
+        },
+        '/api': {
+          target: 'http://www-wms-java.itheima.net', // 我们要代理的地址
+          changeOrigin: true
+        }
+      }
     }
   }
 })
