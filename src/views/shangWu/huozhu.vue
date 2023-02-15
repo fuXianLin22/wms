@@ -1,5 +1,5 @@
 <template>
-  <div class="huozhu"></div>
+  <div class="huozhu">货主</div>
 </template>
 
 <script>

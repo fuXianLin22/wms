@@ -1,5 +1,5 @@
 <template>
-  <div class="chengyunshang"></div>
+  <div class="chengyunshang">承运商</div>
 </template>
 
 <script>
